@@ -8,7 +8,7 @@ description = "Wrapper around the generated gRPC. Adds auth and retry semantics.
 futures-util = "0.3.28"
 jito-protos = { path = "../jito_protos" }
 log = "0.4"
-prost-types = "0.12"
+prost-types = "0.12.6"
 solana-client = "2.1.16"
 solana-metrics = "2.1.16"
 solana-sdk = "=2.1.16"
