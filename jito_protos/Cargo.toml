@@ -11,7 +11,7 @@ prost = "0.12"
 prost-types = "0.12"
 solana-perf = "2.1.16"
 solana-sdk = "2.1.16"
-tonic = "0.10"
+tonic = { version = "0.12.3", features = ["tls", "tls-webpki-roots", "tls-roots"] }
 
 [build-dependencies]
 tonic-build = "0.10"
